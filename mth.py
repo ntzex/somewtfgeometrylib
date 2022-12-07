@@ -1,6 +1,6 @@
 from math import pi
 
-
+# -- AREA -- #
 def square_area(a):
         """Calculate cube area"""
         return pow(a, 2)
@@ -15,3 +15,16 @@ def circle_area(r):
         """Calculate circle area"""
         return pi*pow(r, 2)
 
+
+# -- PERIMETER -- #
+
+def square_perimeter(a):
+        """Calculate square perimeter"""
+        return a*2
+
+
+def rect_perimeter(a, b):
+        return a+b
+
+
+def circle_perimeter(r): ... # Вроде 2*pi*r
