@@ -27,4 +27,6 @@ def rect_perimeter(a, b):
         return a+b
 
 
-def circle_perimeter(r): ... # Вроде 2*pi*r
+def circle_perimeter(r):
+        """Calculate circle area"""  # Это я добавил бтв
+        return 2*3,14*r
