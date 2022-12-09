@@ -16,6 +16,11 @@ def circle_area(r):
     return pi*pow(r, 2)
 
 
+def cube_area(a):
+    """Calculate cube area (6*a^2)"""
+    return 6*square_area(a)
+
+
 def square_perimeter(a):
     """Calculate square perimeter (a*2)"""
     return a*2
